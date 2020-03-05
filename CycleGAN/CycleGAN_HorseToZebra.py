@@ -23,7 +23,7 @@ from tensorflow.keras.initializers import RandomNormal
 
 import random
 import time
-from IPython import display
+#from IPython import display
 
 
 # ### Load dataset
