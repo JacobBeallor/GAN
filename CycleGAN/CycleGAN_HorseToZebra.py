@@ -29,7 +29,7 @@ def load_imgs(paths, bufferSize=1000, size = (256,256)):
 	dataset =  tf.data.Dataset.from_tensor_slices(dataset).shuffle(bufferSize).batch(1)
 	return dataset
 
-path = '~/horse2zebra'
+path = '/home/jacobbeallor/horse2zebra'
 
 horses = load_imgs([path + '/testA/', path + '/trainA/'])
 zebras = load_imgs([path + '/testB/', path + '/trainB/'])
